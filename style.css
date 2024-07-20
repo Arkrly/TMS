@@ -1,0 +1,120 @@
+body{
+    background-color: rgb(20, 120, 153);
+    padding: 0px;
+    margin: 0px;
+}
+
+#home_page{
+    background-color: rgb(220, 244, 150);
+    top: 25vh;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 25px;
+    height: 25vh;
+    width: 50vw;
+}
+
+#login_home_page {
+    background-color: #81CACF;
+    top: 25vh;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    min-height: 30vh;
+    width: 30vw; /* reduced width */
+    height: 36vh; /* reduced height */
+    margin: 0 auto; /* center the div horizontally */
+}
+
+#regitration_home_page{
+    background-color: #81CACF;
+    top: 25vh;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    min-height: 30vh;
+    width: 50vw; /* reduced width */
+    height: 30vh; /* reduced height */
+    margin: 0 auto; /* center the div horizontally */
+}
+
+.centered-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+}
+
+#header {
+    background-color: #D4F6CC;
+    height: 8vh;
+    width: 101vw;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    padding-left: 50px;
+}
+
+#logout_link{
+    text-decoration: none;
+    color:  #0096ff;
+    text-decoration-color: black;
+}
+
+#left_sidebar{
+    margin-top: 15px;
+    width: 13vw;
+    height: 30vh;
+    display: inline-block;
+}
+
+#left_sidebar table tr{
+    background-color: #0096ff;
+    color: blue;
+    font-size: 18px;
+}
+
+#left_sidebr table tr:hover{
+    background-color: #D4F6CC;
+    font-size: 20px;
+    color: black;
+}
+
+#logout_link{
+    text-decoration: none;
+    color: #0096ff;
+}
+
+#logout_link:hover{
+    background-color: #D4F6CC;
+    color: black;
+}
+
+.link{
+    text-decoration: none;
+    color:  #0096ff;
+}
+.link{
+    text-decoration: none;
+    color: #0096ff;
+}
+
+.link:hover{
+    color: black
+}
+
+#right_sidebar{
+    /* background-color: ; */
+    padding: 35px;
+    height: 75vh;
+    width: 75vw;
+    display: inline-block;
+    color: white;
+}
